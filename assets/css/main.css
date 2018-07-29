@@ -525,7 +525,7 @@ input, select, textarea {
 				-webkit-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 				-ms-transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
 				transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
-				border-radius: 4px;
+				border-radius: 0px;
 				border: solid 1px #ffffff;
 				content: '';
 				display: inline-block;
@@ -554,7 +554,7 @@ input, select, textarea {
 		}
 
 	input[type="checkbox"] + label:before {
-		border-radius: 4px;
+		border-radius: 0px;
 	}
 
 	input[type="radio"] + label:before {
@@ -1001,7 +1001,7 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		background-color: transparent;
-		border-radius: 4px;
+		border-radius: 0px;
 		border: 0;
 		box-shadow: inset 0 0 0 1px black;
 		color: black !important;
@@ -1325,7 +1325,7 @@ input, select, textarea {
 			list-style: none;
 			padding-left: 0;
 			border: solid 1px black;
-			border-radius: 4px;
+			border-radius: 0px;
 		}
 
 			#header nav ul li {
@@ -1528,7 +1528,7 @@ input, select, textarea {
 			width: 40rem;
 			max-width: 100%;
 			background-color: rgba(255,255,255,0.2);
-			border-radius: 4px;
+			border-radius: 0px;
 			opacity: 0;
 		}
 
