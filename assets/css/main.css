@@ -72,6 +72,15 @@ input, select, textarea {
 	appearance: none;
 }
 
+@font-face {
+    font-family: 'cloister_blacklight';
+    src: url('cloisterblack_3-webfont.woff2') format('woff2'),
+         url('cloisterblack_3-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -203,7 +212,7 @@ input, select, textarea {
 		font-size: 2.25rem;
 		line-height: 1.3;
 		letter-spacing: 0.5rem;
-		font-family: 'UnifrakturMaguntia', cursive;
+		font-family: 'cloister_blacklight', cursive;
 		color:black;
 
 	}
@@ -1631,3 +1640,4 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
