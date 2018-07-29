@@ -1320,6 +1320,7 @@ input, select, textarea {
 				font-size: 1.2rem;
 				line-height: 2;
 				font-weight: 600;
+
 			}
 
 		#header nav ul {
@@ -1660,4 +1661,14 @@ input, select, textarea {
 	position: relative;
 	right:1px;
 }
+
+
+@media screen and (min-width: 737px) {
+
+#header--content {
+	padding-left:100px;
+	padding-right: 100px;
+}
+}
+
 
