@@ -243,7 +243,7 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h1 {
-			font-size: 1.5rem;
+			font-size: rem;
 			line-height: 1.4;
 		}
 
@@ -1657,6 +1657,11 @@ input, select, textarea {
 #bump2 {
 	position: relative;
 	right:1px;
+}
+
+#bump3 {
+	position: relative;
+	top: 2px;
 }
 
 
