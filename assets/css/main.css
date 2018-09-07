@@ -1674,3 +1674,11 @@ input, select, textarea {
 }
 
 
+.pane{
+
+}
+
+.wraps{
+	display: flex; /* or inline-flex */
+	 flex-direction: row;
+}

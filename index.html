@@ -9,6 +9,7 @@
 		<title>Black Rock Atlas</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<script src="assets/js/jquery.min.js"></script>
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,600" rel="stylesheet">
 		<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
@@ -18,6 +19,10 @@
 		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>	
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<meta name="twitter:image" content="http://blackrockatlas.mit.edu/images/about2.png" />
+
+
+
+
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-53112709-5"></script>
 <script>
@@ -83,9 +88,16 @@
 								<p>Your participation in the Black Rock Atlas is a key reason of its success. Please enjoy the articles and stories we are producing about the project, and take the follow up survey HERE </p>
 							</article>
 
-							<article id="viz" style = "width:inherit; padding: 0px">
-								 <div id = "geoviz"></div>
+							<article id="viz" style = "width:inherit; padding: 0px" onload="">
+								<div class = "wraps">
+								 	<div class = "pane"><button id = "top">Top View</button><br><button id = "side">Side View</button></div>
+								 	<div class = "pane" id = "geoviz"></div>
+								 	<div class = "pane"></div>
+
+								</div>
       								<script src="geoviz.js"></script>
+      								
+
 								
 							</article>
 
@@ -386,7 +398,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<div id="bg"></div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
+			
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
