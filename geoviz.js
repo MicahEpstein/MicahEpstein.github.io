@@ -200,7 +200,7 @@ scatterPlot.add(valueY);
 
 var mat = new THREE.ParticleBasicMaterial({
     vertexColors: true,
-    size: 12
+    size: 2
 });
 
 var pointCount = unfiltered.length;
