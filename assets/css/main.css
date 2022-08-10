@@ -1364,7 +1364,7 @@ input, select, textarea {
 
 		#header nav.use-middle:after {
 			content: '';
-			display: block;
+			display: none;
 			position: absolute;
 			top: 0;
 			left: calc(50% - 1px);
@@ -1530,13 +1530,10 @@ input, select, textarea {
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-<<<<<<< HEAD
 			background-color: transparent;
 			border: 2px solid black;
-=======
 			background-color: rgba(255,255,255,0.2);
 			border-radius: 0px;
->>>>>>> 1920d1f299c556d16d03d16254add2722a71895c
 			opacity: 0;
 		}
 
@@ -1691,4 +1688,12 @@ input, select, textarea {
 .wraps{
 	display: flex; /* or inline-flex */
 	 flex-direction: row;
+}
+
+#survey_button{
+	padding: 10px;
+	background-color: red;
+	display: inline-block; 
+	color:white !important;
+	box-shadow: 5px 5px black;
 }
