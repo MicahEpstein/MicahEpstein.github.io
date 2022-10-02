@@ -157,7 +157,7 @@
     Tick.prototype.tick = function() {
       this.value = this.increment(this.value);
       this.render();
-      if (this.value >=5){
+      if (this.value >=11){
         this.stop();
       }
       return this.set_timer();
